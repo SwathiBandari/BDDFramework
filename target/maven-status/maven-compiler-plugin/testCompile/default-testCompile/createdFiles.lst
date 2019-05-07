@@ -1,0 +1,3 @@
+com\freecrm\cucumber\stepDefinitions\LoginStepDefinition.class
+com\freecrm\cucumber\testrunner\TestRunner.class
+com\freecrm\cucumber\stepDefinitions\AddNewUserStepDefinition.class
