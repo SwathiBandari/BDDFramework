@@ -99,18 +99,6 @@ Thread.sleep(5000);
 WebElement role = driver.findElement(By.id("role"));
 Select crole = new Select(role);
 crole.selectByVisibleText("Contributor");
-//Take screenshot and store as a file format
-File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-try {
-// now copy the  screenshot to desired location using copyFile //method
-	FileUtils.copyFile(src,Screenshot());
-}
-
-catch (IOException e)
-{
-System.out.println(e.getMessage());
-
-}
 WebElement Create = driver.findElement(By.id("createusersub"));
 JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("arguments[0].scrollIntoView(true);", Create);
