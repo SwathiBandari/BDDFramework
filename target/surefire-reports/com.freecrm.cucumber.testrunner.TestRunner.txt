@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.freecrm.cucumber.testrunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.853 sec - in com.freecrm.cucumber.testrunner.TestRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.827 sec - in com.freecrm.cucumber.testrunner.TestRunner
