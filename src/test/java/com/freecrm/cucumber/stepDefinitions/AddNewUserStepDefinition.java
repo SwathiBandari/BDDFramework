@@ -1,18 +1,26 @@
 package com.freecrm.cucumber.stepDefinitions;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import com.google.common.io.Files;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 
 public class AddNewUserStepDefinition {
@@ -94,9 +102,32 @@ Thread.sleep(5000);
 WebElement role = driver.findElement(By.id("role"));
 Select crole = new Select(role);
 crole.selectByVisibleText("Contributor");
+//Take screenshot and store as a file format
+File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+try {
+// now copy the  screenshot to desired location using copyFile //method
+FileUtils.copyFile(src, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage1.png"));
+}
+
+catch (IOException e)
+{
+System.out.println(e.getMessage());
+
+}
 WebElement Create = driver.findElement(By.id("createusersub"));
 JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("arguments[0].scrollIntoView(true);", Create);
+File src2= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+try {
+// now copy the  screenshot to desired location using copyFile //method
+FileUtils.copyFile(src2, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage2.png"));
+}
+
+catch (IOException e)
+{
+System.out.println(e.getMessage());
+
+}
 Create.click();
 
 
@@ -107,6 +138,17 @@ Create.click();
 	public void newuseriscreated() {
 		String Successmsg = driver.findElement(By.cssSelector("[id='message'] p")).getText();
 				Assert.assertEquals("New user created. Edit user",Successmsg);
+				File src3= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+				try {
+				// now copy the  screenshot to desired location using copyFile //method
+				FileUtils.copyFile(src3, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage3.png"));
+				}
+
+				catch (IOException e)
+				{
+				System.out.println(e.getMessage());
+
+				}
 	              
 	}
 
