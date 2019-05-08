@@ -13,8 +13,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import com.google.common.io.Files;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -23,9 +21,8 @@ import io.cucumber.datatable.DataTable;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 
-public class AddNewUserStepDefinition {
+public class AddNewUserStepDefinition extends Baseclass {
 	WebDriver driver;
-	
 	///new comment added
 	
 //	@Given("User is already on Loginorhome Page")
@@ -106,7 +103,7 @@ crole.selectByVisibleText("Contributor");
 File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 try {
 // now copy the  screenshot to desired location using copyFile //method
-FileUtils.copyFile(src, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage1.png"));
+	FileUtils.copyFile(src,Screenshot());
 }
 
 catch (IOException e)
@@ -119,14 +116,12 @@ JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("arguments[0].scrollIntoView(true);", Create);
 File src2= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 try {
-// now copy the  screenshot to desired location using copyFile //method
-FileUtils.copyFile(src2, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage2.png"));
+// now copy the  screenshot to desired location using copyFile with timestamp
+FileUtils.copyFile(src2,Screenshot());
 }
-
 catch (IOException e)
 {
 System.out.println(e.getMessage());
-
 }
 Create.click();
 
@@ -141,7 +136,7 @@ Create.click();
 				File src3= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 				try {
 				// now copy the  screenshot to desired location using copyFile //method
-				FileUtils.copyFile(src3, new File("C:\\Users\\sbandari\\eclipse-workspace\\BDDFramework Screenshots\\FormPage3.png"));
+				FileUtils.copyFile(src3,Screenshot());
 				}
 
 				catch (IOException e)
