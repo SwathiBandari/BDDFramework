@@ -14,7 +14,7 @@ Given User logged with "opensourcecms" and "opensourcecms"
 When Clicked on Users
 And Clicks on AddUser
 And NewUserPage Form is displayed
-| newuser41 | newuse41@gmail.com | newuser4 | untitled41 | untitled41newuser.com.au | 
+| newuser45 | newuse45@gmail.com | newuser5 | untitled45 | untitled45newuser.com.au | 
 Then NewUseriscreated
 
 

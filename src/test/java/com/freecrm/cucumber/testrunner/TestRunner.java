@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 	features= "src/test/resources/features",
 	glue={"com.freecrm.cucumber.stepDefinitions"},
-	tags = "@UserCreation"
+	tags = "@UserCreation",
+	plugin = {"pretty","junit:target/cucumber-reports/Cucumber.xml"}
 		
 	)
 public class TestRunner {
