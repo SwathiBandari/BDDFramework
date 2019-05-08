@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.freecrm.cucumber.testrunner.TestRunner" time="43.875" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.freecrm.cucumber.testrunner.TestRunner" time="31.037" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,34 +32,34 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\sbandari\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/15/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/16/display/redirect?page=changes"/>
     <property name="user.timezone" value="Australia/Sydney"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-FreeCRMTest-15"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTest-16"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="TVTCOMMON" value="C:\Program Files (x86)\Common Files\Lenovo"/>
     <property name="LOG_FILE" value="C:\Users\gojeah\AppData\Local\Temp\\ihp_custom_batches.log"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sbandari\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50399"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sbandari\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50710"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="a903f03c2037aeea"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\PuTTY;C:\Users\esantos\AppData\Local\Programs\Python\Python35-32\;C:\git\performance-test\bin;C:\Users\esantos\Downloads\apache-maven-3.3.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sbandari\Downloads\apache-maven-3.6.1\bin"/>
-    <property name="GIT_COMMIT" value="c143714d43c837e2ed57a41aeaaeb6df281b6b75"/>
+    <property name="GIT_COMMIT" value="77e893a99f2649a1a30211cc9dc2114a542d9b41"/>
     <property name="java.io.tmpdir" value="C:\Users\sbandari\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\sbandari\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTest/15/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTest/16/"/>
     <property name="M2_HOME" value="C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="=C:" value="C:\Users\sbandari"/>
     <property name="ERROR_CODE" value="0"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#15"/>
+    <property name="BUILD_DISPLAY_NAME" value="#16"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="a903f03c2037aeea"/>
@@ -74,7 +74,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="15"/>
+    <property name="BUILD_NUMBER" value="16"/>
     <property name="maven3.interceptor" value="C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\PuTTY;C:\Users\esantos\AppData\Local\Programs\Python\Python35-32\;C:\git\performance-test\bin;C:\Users\esantos\Downloads\apache-maven-3.3.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sbandari\Downloads\apache-maven-3.6.1\bin;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,11 +82,11 @@
     <property name="POM_ARTIFACTID" value="BDDFramework"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTest/"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="0dcfdaeb6295786c48a16b5908e0bab97547f728"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="c143714d43c837e2ed57a41aeaaeb6df281b6b75"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/15/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/16/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\sbandari\.jenkins"/>
-    <property name="BUILD_ID" value="15"/>
+    <property name="BUILD_ID" value="16"/>
     <property name="TEMP" value="C:\Users\sbandari\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -96,7 +96,7 @@
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="configsetroot" value="C:\Windows\ConfigSetRoot"/>
     <property name="HUDSON_HOME" value="C:\Users\sbandari\.jenkins"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="0dcfdaeb6295786c48a16b5908e0bab97547f728"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="c143714d43c837e2ed57a41aeaaeb6df281b6b75"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
     <property name="PROMPT" value="$P$G"/>
@@ -151,5 +151,5 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/SwathiBandari/BDDFramework"/>
   </properties>
-  <testcase name="New User Creation" classname="Word Press Feature" time="43.153"/>
+  <testcase name="New User Creation" classname="Word Press Feature" time="30.454"/>
 </testsuite>
