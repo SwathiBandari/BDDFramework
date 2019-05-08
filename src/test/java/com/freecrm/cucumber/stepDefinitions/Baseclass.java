@@ -1,8 +1,10 @@
 package com.freecrm.cucumber.stepDefinitions;
 
 import java.io.File;
-import java.sql.Date;
+
+    
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.openqa.selenium.WebDriver;
 
@@ -14,11 +16,11 @@ protected WebDriver driver;
 	}
 	
 	public File Screenshot() {
-		String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date(0));
+		String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
 		File dest= new File("C:\\Users\\sbandari\\Desktop\\BDD Screenshots\\"+"FormPage"+"_"+timestamp+".jpg");
 		return dest;
 				
 	}
-	
+	      
 
 }

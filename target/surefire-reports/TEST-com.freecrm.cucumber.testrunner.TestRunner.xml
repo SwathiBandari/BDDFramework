@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.freecrm.cucumber.testrunner.TestRunner" time="49.198" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.freecrm.cucumber.testrunner.TestRunner" time="68.559" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,34 +32,34 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\sbandari\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/12/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/13/display/redirect?page=changes"/>
     <property name="user.timezone" value="Australia/Sydney"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-FreeCRMTest-12"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTest-13"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="TVTCOMMON" value="C:\Program Files (x86)\Common Files\Lenovo"/>
     <property name="LOG_FILE" value="C:\Users\gojeah\AppData\Local\Temp\\ihp_custom_batches.log"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sbandari\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 61883"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\sbandari\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 63935"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="a903f03c2037aeea"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\PuTTY;C:\Users\esantos\AppData\Local\Programs\Python\Python35-32\;C:\git\performance-test\bin;C:\Users\esantos\Downloads\apache-maven-3.3.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sbandari\Downloads\apache-maven-3.6.1\bin"/>
-    <property name="GIT_COMMIT" value="8eda2714e11e86ed8f097e2c8792afa7abcb30b4"/>
+    <property name="GIT_COMMIT" value="a229ba3f04b8e1fb3a3f0edd35fa330279e9a946"/>
     <property name="java.io.tmpdir" value="C:\Users\sbandari\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\sbandari\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTest/12/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTest/13/"/>
     <property name="M2_HOME" value="C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="=C:" value="C:\Users\sbandari"/>
     <property name="ERROR_CODE" value="0"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="BUILD_DISPLAY_NAME" value="#13"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="a903f03c2037aeea"/>
@@ -74,7 +74,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="12"/>
+    <property name="BUILD_NUMBER" value="13"/>
     <property name="maven3.interceptor" value="C:\Users\sbandari\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sbandari\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\PuTTY;C:\Users\esantos\AppData\Local\Programs\Python\Python35-32\;C:\git\performance-test\bin;C:\Users\esantos\Downloads\apache-maven-3.3.9\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\sbandari\Downloads\apache-maven-3.6.1\bin;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,11 +82,11 @@
     <property name="POM_ARTIFACTID" value="BDDFramework"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTest/"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="7a527dc913844489513cdbe4392fd2ad56615023"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="8eda2714e11e86ed8f097e2c8792afa7abcb30b4"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/12/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTest/13/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\sbandari\.jenkins"/>
-    <property name="BUILD_ID" value="12"/>
+    <property name="BUILD_ID" value="13"/>
     <property name="TEMP" value="C:\Users\sbandari\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -151,27 +151,5 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/SwathiBandari/BDDFramework"/>
   </properties>
-  <testcase name="New User Creation" classname="Word Press Feature" time="48.538">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[id=&apos;message&apos;] p&quot;}&#10;  (Session info: chrome=74.0.3729.131)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;NSWSYDNLP130&apos;, ip: &apos;192.168.3.88&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\sbandari\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61902}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}&#10;Session ID: fd1e0b565774989db4c6e01194f96c64&#10;*** Element info: {Using=css selector, value=[id=&apos;message&apos;] p}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"[id='message'] p"}
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NSWSYDNLP130', ip: '192.168.3.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\sbandari\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61902}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: fd1e0b565774989db4c6e01194f96c64
-*** Element info: {Using=css selector, value=[id='message'] p}
-</error>
-    <system-out><![CDATA[DashBoard TitleDashboard ‹ opensourcecms — WordPress
-&amp#27;[32m.&amp#27;[0m&amp#27;[32m.&amp#27;[0m&amp#27;[32m.&amp#27;[0m&amp#27;[32m.&amp#27;[0m&amp#27;[31mF&amp#27;[0m]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 8049
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 08, 2019 10:25:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
+  <testcase name="New User Creation" classname="Word Press Feature" time="67.478"/>
 </testsuite>
