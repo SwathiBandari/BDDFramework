@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.474644">
+<testcase classname="Word Press Feature" name="New User Creation" time="26.474644">
+<system-out><![CDATA[Given User logged with "opensourcecms" and "opensourcecms"..................passed
+When Clicked on Users.......................................................passed
+And Clicks on AddUser.......................................................passed
+And NewUserPage Form is displayed...........................................passed
+Then NewUseriscreated.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
