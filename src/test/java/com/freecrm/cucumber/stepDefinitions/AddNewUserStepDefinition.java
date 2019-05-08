@@ -135,7 +135,7 @@ Create.click();
 				Assert.assertEquals("New user created. Edit user",Successmsg);
 				File src3= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 				try {
-				// now copy the  screenshot to desired location using copyFile //method
+				// now copy screenshot to destination File, Destination file defined in Base class
 				FileUtils.copyFile(src3,Screenshot());
 				}
 
